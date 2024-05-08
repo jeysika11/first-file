@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 0 6px 16px #0000000D;
+    border-top: 5px solid #FF7500;
+    padding: 16px;
+
+}
+
+header nav {
+    width: 1100px;
+
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul:nth-child(2) {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bur {
+    background-color: #FF7500;
+    margin: 8px;
+    border-radius: 5px;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: cell;
+}
+
+.bur:hover {
+    opacity: 80%;
+}
+
+.bur:active {
+    opacity: 60%;
+}
+
+header nav ul li a:hover {
+    color: #FF7500;
+}
+
+header nav ul li a:active {
+    opacity: 60%;
+}
+
+.active {
+    border-bottom: 3px solid #FF7500;
+}
+
+section {
+    background-color: #252420;
+    padding: 30px 16px;
+}
+
+.section-wrapper {
+    width: 1100px;
+
+    margin: auto;
+}
+
+.section-wrapper .section-item {
+    widows: 45px;
+    vertical-align: middle;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.section-wrapper .section-item img {
+    width: 100%;
+}
+
+section .home {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+}
+
+.card-border {
+    background-color: white;
+}
+
+.old {
+    width: 24%;
+    vertical-align: top;
+
+    border-radius: 10px;
+    margin: auto;
+    display: inline-block;
+    padding: 50px;
+    margin: 15px;
+}
+
+.old img {
+    width: 80px;
+    border-radius: 50px;
+
+
+}
+
+.old h2 {
+    padding: 15px;
+}
+
+
+
+
+
+.section-item {
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: middle;
+}
+
+.logo {
+    background-color: white;
+
+}
+
+footer {
+    background-color: white;
+    padding: 16px;
+    box-shadow: 10px;
+}
+
+footer nav {
+    width: 1100px;
+    margin: auto;
+
+}
+
+footer nav ul {
+    display: inline-block;
+
+}
+
+footer nav ul:nth-child(2) {
+    display: inline-block;
+    padding: 16px;
+
+    
+}
+
+footer nav ul li {
+    display: inline-block;
+  
+   
+}
+
+.end{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
+    margin: 15px;
+    margin: auto;
+}
